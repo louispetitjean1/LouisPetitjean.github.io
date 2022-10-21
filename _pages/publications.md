@@ -5,12 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+## 2022
+*  Carnet des recherches des étudiant·es en sciences humaines et sociales de l’ENS Paris-Saclay. [Article](https://saclaydc.hypotheses.org/324) published in ”Saclay des Champs”.
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+## 2021
+*”Voir le musée autrement” -– Conférence introductive de Dominique Poulot
+[Report](https://metis-lab.com/2021/12/16/voir-le-musee-autrement-conference-introductive-de-dominique-poulot/) available on the [Métis](https://metis-lab.com/) website.
